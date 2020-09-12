@@ -9,9 +9,10 @@ How to use C# Interactive
 http://appetere.com/post/how-to-use-csharp-interactive   
 
 ## 문법
+1. null이 허용되는 기본 data type 선언하기
 ```
-Nullable<TYPE> x = null; 
-TYPE? x = null; 
+Nullable<int> x = null; 
+int? x = null; 
 ```
 
 
