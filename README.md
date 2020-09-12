@@ -9,6 +9,9 @@ How to use C# Interactive
 http://appetere.com/post/how-to-use-csharp-interactive   
 
 ## 문법
-#### int? x = null
+```
+Nullable<TYPE> x = null; 
+TYPE? x = null; 
+```
 
 
