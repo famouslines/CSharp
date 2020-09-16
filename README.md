@@ -23,10 +23,10 @@ This is
 ```
 3. StringInterpolation
 ```
-int number = 3;
-string result = "홀수";
-Console.WriteLine($"{number}은(는) {result}입니다."); // C# 6.0 이후
-
-Console.WriteLine("{0}은(는) {1}입니다.", number, result);
+string message = "String interpolation";
+Console.WriteLine("Message: {0}", message); 
+Console.WriteLine("Message: " + message); 
+Console.WriteLine(String.Format("Message: {0}", message)); 
+Console.WriteLine($"Message: {message}"); // C# 6.0 
 ```
 
