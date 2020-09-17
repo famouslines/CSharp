@@ -34,9 +34,10 @@ Console.WriteLine($"Message: {message}"); // C# 6.0
 int i = 1234;
 Console.WriteLine(i.GetType()) // System.Int32
 ```
-5. PadLeft
+5. Convert
 ```
 int number = 10; 
 Convert.ToString(number, 2); // "1010"
 Convert.ToString(number, 2).PadLeft(8, '0'); // "00001010"
+Convert.ToInt32("00001010", 2) // 2진수인 string "00001010"을 정수형으로 변환하라. 
 ```
