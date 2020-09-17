@@ -34,10 +34,22 @@ Console.WriteLine($"Message: {message}"); // C# 6.0
 int i = 1234;
 Console.WriteLine(i.GetType()) // System.Int32
 ```
-5. Convert
+5. binary literal
 ```
-int number = 10; 
-Convert.ToString(number, 2); // "1010"
-Convert.ToString(number, 2).PadLeft(8, '0'); // "00001010"
-Convert.ToInt32("00001010", 2) // 2진수인 string "00001010"을 정수형으로 변환하라. 
+int b1 = 0b1010; 
+Console.WriteLine(b1); // 10
+int b2 = 0B0001_1010; 
+Console.WriteLine(b2); // 26
+```
+6. var & dynamic
+```
+var i = 10; // similar to auto keyword in C++
+Console.WriteLine(i);
+//i = "hello"; compile error
+//Console.WriteLine(i);
+
+dynamic a = 10;
+Console.WriteLine(a);
+a = "hello";
+Console.WriteLine(a);
 ```
