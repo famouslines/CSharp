@@ -34,4 +34,9 @@ Console.WriteLine($"Message: {message}"); // C# 6.0
 int i = 1234;
 Console.WriteLine(i.GetType()) // System.Int32
 ```
-
+5. PadLeft
+```
+int number = 10; 
+Convert.ToString(number, 2); // "1010"
+Convert.ToString(number, 2).PadLeft(8, '0'); // "00001010"
+```
