@@ -29,4 +29,9 @@ Console.WriteLine("Message: " + message);
 Console.WriteLine(String.Format("Message: {0}", message)); 
 Console.WriteLine($"Message: {message}"); // C# 6.0 
 ```
+4. GetType
+```
+int i = 1234;
+Console.WriteLine(i.GetType()) // System.Int32
+```
 
